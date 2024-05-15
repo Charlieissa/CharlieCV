@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  align-items: center; /* Vertically center the list items */
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav ul li.logo {
+  padding-right: 400px;
+  font-size: 64px;
+  letter-spacing: 4px;
+}
+nav ul li.logo::first-letter {
+  color: rgb(129, 0, 133); /* Change to your desired color */
+}
