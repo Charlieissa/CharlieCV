@@ -21,11 +21,6 @@ class Navbar extends React.Component {
           <ul>
             <li className="logo">Charlie</li>
             <li>
-              <a href="#home" onClick={() => this.handleNavClick("home")}>
-                AboutMe
-              </a>
-            </li>
-            <li>
               <a
                 href="#Experience"
                 onClick={() => this.handleNavClick("Experience")}

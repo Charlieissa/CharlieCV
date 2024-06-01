@@ -30,27 +30,27 @@ class Home extends React.Component {
             <button onClick={scrollToTop}>Scroll to Top</button>
           </div>
 
-          <section
-            id="home"
-            className={"home"}
-            style={{ visibility: "hidden" }}
-          >
+          <section id="home" className={"home"}>
             <p>
-              Hello im Charlie , a dedicated and seasoned software engineer with
-              a robust expertise in web development and Python programming.
-              Throughout my journey, Ive engaged in a diverse spectrum of
-              projects, ranging from architecting scalable web applications to
-              engineering sophisticated Python automation scripts.
+              Hello, I'm Charlie, a dedicated and seasoned software engineer
+              with extensive expertise in web development and Python
+              programming. Over the course of my career, I've been involved in a
+              wide variety of projects, including designing scalable web
+              applications and developing advanced Python automation scripts.
             </p>
           </section>
           <section id="Experience" className={"Experience"}>
             <p>
-              <strong>Experience</strong>
+              <strong style={{ fontSize: 50, color: "lightgreen" }}>
+                Experience
+              </strong>
             </p>
             <p>
-              <strong>Data Collection Intel RealSense</strong>
+              <strong style={{ color: "lightblue" }}>
+                Data Collection - RealSense,Intel{" "}
+              </strong>
               <br></br>
-              <strong>07/2023 - Present</strong>
+              <strong style={{ color: "lightblue" }}>07/2023 - Present</strong>
             </p>
             <ul>
               <li>
@@ -87,7 +87,9 @@ class Home extends React.Component {
           </section>
           <section id="skills" className={"skills"}>
             <p>
-              <strong>Skills</strong>
+              <strong style={{ fontSize: 50, color: "lightgreen" }}>
+                Skills
+              </strong>
             </p>
             <ul>
               <li>
@@ -116,7 +118,9 @@ class Home extends React.Component {
           </section>
           <section id="programmingLanguage" className={"programmingLanguage"}>
             <p>
-              <strong>Programming Languages</strong>
+              <strong style={{ fontSize: 50, color: "lightgreen" }}>
+                Programming Languages
+              </strong>
             </p>
             <ul>
               <li>
@@ -131,22 +135,27 @@ class Home extends React.Component {
           </section>
           <section id="education" className={"education"}>
             <p>
-              <strong>Education</strong>
+              <strong style={{ fontSize: 50, color: "lightgreen" }}>
+                Education
+              </strong>
             </p>
-            <p>2021-2023 – Software Practical Engineering, Technion</p>
-            <p>GPA: 93</p>
-            <p>Courses:</p>
+            <p style={{ color: "lightblue" }}>
+              2021-2023 – Software Practical Engineering, Technion - GPA: 93
+            </p>
             <ul>
-              <li>Data Structures</li>
-              <li>Operating Systems</li>
-              <li>Java</li>
-              <li>C++</li>
-              <li>Python</li>
-              <li>Object-Oriented Programming (OOP)</li>
-              <li>Quality Assurance (QA)</li>
-              <li>SQL</li>
+              <ul style={{ color: "lightpink" }}>Courses:</ul>
+              <ul>Data Structures</ul>
+              <ul>Operating Systems</ul>
+              <ul>Java</ul>
+              <ul>C++</ul>
+              <ul>Python</ul>
+              <ul>Object-Oriented Programming (OOP)</ul>
+              <ul>Quality Assurance (QA)</ul>
+              <ul>SQL</ul>
             </ul>
-            <p>Projects:</p>
+            <strong style={{ fontSize: 50, color: "lightgreen" }}>
+              Projects:
+            </strong>
             <ul>
               <li>
                 Final Project - home.co.il
